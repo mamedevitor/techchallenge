@@ -1,0 +1,135 @@
+id;control;cultivar
+1;TINTAS;TINTAS
+2;ti_Alicante Bouschet;Alicante Bouschet
+3;ti_Ancelota;Ancelota
+4;ti_Aramon;Aramon
+5;ti_Alfrocheiro;Alfrocheiro
+6;ti_Arinarnoa;Arinarnoa
+7;ti_Aspirant Bouschet;Aspirant Bouschet
+8;ti_Barbera;Barbera
+9;ti_Bonarda;Bonarda
+10;ti_Cabernet Franc;Cabernet Franc
+11;ti_Cabernet Sauvignon;Cabernet Sauvignon
+12;ti_ Caladoc;Caladoc
+13;ti_Campanario;Campanario
+14;ti_Canaiolo;Canaiolo
+15;ti_Carignan;Carignan
+16;ti_Carmenere;Carmenere
+17;ti_Castelão;Castelão
+18;ti_Corvina;Corvina
+19;ti_Croatina;Croatina
+20;ti_Cinsaut;Cinsaut
+21;ti_Dom Felder;Dom Felder
+22;ti_Dolcetto;Dolcetto
+23;ti_Durif;Durif
+24;ti_Egiodola;Egiodola
+25;ti_Ekigaina;Ekigaina
+26;ti_Festival (Sugraone);Festival (Sugraone)
+27;ti_Franconia;Franconia
+28;ti_Freisa;Freisa
+29;ti_Gamay St Romain;Gamay St Romain
+30;ti_Gamay Beaujolais;Gamay Beaujolais
+31;ti_Grand Noir;Grand Noir
+32;ti_Grenache;Grenache
+33;ti_Jaen;Jaen
+34;ti_Lagrein;Lagrein
+35;ti_Lambrusco;Lambrusco
+36;ti_Malbec;Malbec
+37;ti_Marzemina;Marzemina
+38;ti_Merlot;Merlot
+39;ti_Marselan;Marselan
+40;ti_Molinera;Molinera
+41;ti_Montepulciano;Montepulciano
+42;ti_Moscato Bailey;Moscato Bailey
+43;ti_Napa Gamay;Napa Gamay
+44;ti_Nebbiolo;Nebbiolo
+45;ti_Petit Verdot;Petit Verdot
+46;ti_Petite Sirah;Petite Sirah
+47;ti_Pinotage;Pinotage
+48;ti_Pinot Noir;Pinot Noir
+49;ti_Pinot Saint George;Pinot Saint George
+50;ti_Piriquita;Piriquita
+51;ti_Rebo;Rebo
+52;ti_Refosco;Refosco
+53;ti_Rondinella;Rondinella
+54;ti_Ruby Cabernet;Ruby Cabernet
+55;ti_Sangiovese;Sangiovese
+56;ti_Sira (falsa);Sira (falsa)
+57;ti_Tannat;Tannat
+58;ti_Tempranillo;Tempranillo
+59;ti_Teroldego;Teroldego
+60;ti_Torrontes;Torrontes
+61;ti_Tinta Barroca;Tinta Barroca
+62;ti_Touriga Francesa;Touriga Francesa
+63;ti_Touriga Nacional;Touriga Nacional
+64;ti_Tinta Madeira;Tinta Madeira
+65;ti_Tintoria;Tintoria
+66;ti_Trincdeira;Trincdeira
+67;ti_Trousseau;Trousseau
+68;ti_Zinfandel;Zinfandel
+69;ti_Outras1;Outras1
+70;BRANCASEROSADAS;BRANCAS E ROSADAS
+71;br_Aliatico;Aliatico
+72;br_Aligote;Aligote
+73;br_Altesse;Altesse
+74;br_Alvarinho;Alvarinho
+75;br_Arriloba;Arriloba
+76;br_Auxerrois;Auxerrois
+77;br_Burger;Burger
+78;br_Chardonnay;Chardonnay
+79;br_Chasselas;Chasselas
+80;br_Chenin Blanc;Chenin Blanc
+81;br_Clairette(1);Clairette(1)
+82;br_Colombard;Colombard
+83;br_Flora;Flora
+84;br_Garganega;Garganega
+85;br_Gewurztraminer;Gewurztraminer
+86;br_Gouveio;Gouveio
+87;br_Gros Manseng;Gros Manseng
+88;br_Italia (Pirovano 65) (PE);Italia (Pirovano 65) (PE)
+89;br_Maccabeo;Maccabeo
+90;br_Malvasia;Malvasia
+91;br_Malvasia Amarela;Malvasia Amarela
+92;br_Malvasia Bianca;Malvasia Bianca
+93;br_Malvasia Chianti;Malvasia Chianti
+94;br_Malvasia Verde;Malvasia Verde
+95;br_Malvasia di Candia;Malvasia di Candia
+96;br_Malvasia Istriana;Malvasia Istriana
+97;br_Mistura de uvas viníferas;Mistura de uvas viníferas branco
+98;br_Mistura de uvas viníferas;Mistura de uvas viníferas rosado
+99;br_Moscato_branco;Moscato Branco
+100;br_Moscato Canelli;Moscato Canelli
+101;br_Moscato Giallo;Moscato Giallo
+102;br_Moscato Nazareno;Moscato Nazareno
+103;br_Moscato Bianco R2;Moscato Bianco R2
+104;br_Moscato de Alexandria;Moscato de Alexandria
+105;br_Moscato Rosado;Moscato Rosado
+106;br_Muscat a Petits Grains;Muscat à Petits Grains
+107;br_Muller Thurgau;Muller Thurgau
+108;br_Muscadelle;Muscadelle
+109;br_Ora;Ora
+110;br_Palomino;Palomino
+111;br_Petit Manseng;Petit Manseng
+112;br_Peverella;Peverella
+113;br_Pinot Blanc;Pinot Blanc
+114;br_Pinot Gris;Pinot Gris
+115;br_Prosecco;Prosecco
+116;br_Red Veltliner;Red Veltliner
+117;br_Riesling Italico;Riesling Italico
+118;br_Riesling Renano;Riesling Renano
+119;br_Sauvignon Blanc(2);Sauvignon Blanc(2)
+120;br_Sauvignon Gris;Sauvignon Gris
+121;br_Seara Nova;Seara Nova
+122;br_Semillon;Semillon
+123;br_Schonburger;Schonburger
+124;br_Sylvaner;Sylvaner
+125;br_Tocai Friulano;Tocai Friulano
+126;br_Trebbiano;Trebbiano
+127;br_Trebbiano Toscano;Trebbiano Toscano
+128;br_Verdea;Verdea
+129;br_Verdelho;Verdelho
+130;br_Verdiso;Verdiso
+131;br_Vermentino;Vermentino
+132;br_Vernaccia;Vernaccia
+133;br_Viognier;Viognier
+134;br_Outras(3);Outras(3)

@@ -1,0 +1,68 @@
+from pydantic import BaseModel
+
+class Producao(BaseModel):
+    id: int
+    control: str
+    produto: str
+    ano1970: int
+    ano1971: int
+    ano1972: int
+    ano1973: int
+    ano1974: int
+    ano1975: int
+    ano1976: int
+    ano1977: int
+    ano1978: int
+    ano1979: int
+    ano1980: int
+    ano1981: int
+    ano1982: int
+    ano1983: int
+    ano1984: int
+    ano1985: int
+    ano1986: int
+    ano1987: int
+    ano1988: int
+    ano1989: int
+    ano1990: int
+    ano1991: int
+    ano1992: int
+    ano1993: int
+    ano1994: int
+    ano1995: int
+    ano1996: int
+    ano1997: int
+    ano1998: int
+    ano1999: int
+    ano2000: int
+    ano2001: int
+    ano2002: int
+    ano2003: int
+    ano2004: int
+    ano2005: int
+    ano2006: int
+    ano2007: int
+    ano2008: int
+    ano2009: int
+    ano2010: int
+    ano2011: int
+    ano2012: int
+    ano2013: int
+    ano2014: int
+    ano2015: int
+    ano2016: int
+    ano2017: int
+    ano2018: int
+    ano2019: int
+    ano2020: int
+    ano2021: int
+    ano2022: int
+    ano2023: int
+
+class ProcessaViniferas(BaseModel):
+    id: int
+    control: str
+    cultivar: str
+    
+    class Config:
+        orm_mode = True
