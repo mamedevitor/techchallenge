@@ -33,7 +33,8 @@ with Session() as session:
                 csv_data = csv.DictReader(StringIO(req.text), delimiter=separador)
                 colunas_renomeadas = []
                 contagem_colunas = defaultdict(int)
-
+                    
+                # algumas colunas estavam vindo com nomes iguais e dando erro na criação do bd
                 for coluna in csv_data.fieldnames:
                     contagem_colunas[coluna] += 1
                     if contagem_colunas[coluna] > 1:
