@@ -47,12 +47,14 @@ with Session() as session:
                     for coluna_original, coluna_renomeada in zip(csv_data.fieldnames, colunas_renomeadas)}
                     for row in csv_data])
                 session.commit()
-                print(f"Arquivo '{nome_tabela}' baixado e inserido com sucesso!")
+                #print(f"Arquivo '{nome_tabela}' baixado e inserido com sucesso!")
 
-            else: print(f"Erro ao baixar o arquivo '{nome_tabela}': {req.status_code}")
+            else:
+                pass
+                #print(f"Erro ao baixar o arquivo '{nome_tabela}': {req.status_code}")
 
         except Exception as e:
-            print(f"Erro ao processar o arquivo '{nome_tabela}': {e}")
+            #print(f"Erro ao processar o arquivo '{nome_tabela}': {e}")
             session.rollback()
 
 engine.dispose()
