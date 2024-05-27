@@ -10,11 +10,8 @@ Uso:
 
 A API não requer instalações adicionais.
 Link principal da API: (LINK DA API)
-
 -Autenticação: (desenvolver)
-
 Em seguida, é possível realizar requisições GET para os endpoints listados abaixo para obter os dados desejados. Segue a relação de dados desejados e endpoints:
-
 Produção: /producao/
 Processamento de Viníferas: /processa_viniferas/
 Processamento de Americanas e Hídridas: /processa_americanas_hibridas/
