@@ -1,17 +1,25 @@
 API Embrapa
 
 
+
 Descrição:
 
-API REST que consulta dados de vitivinicultura do site da Emprapa (http://vitibrasil.cnpuv.embrapa.br), incluindo dados de Produção, Processamento (de Viníferas, Americanas e Hídridas, Uvas de Mesa e Sem Classificação), Comercialização, Importação (de Vinhos de Mesa, Espumantes, Uvas Frescas, Uvas Passas e Suco de Uva) e Exportação (de Vinhos de Mesa, Espumantes, Uvas Frescas e Suco de Uva). Em seguida, retorna os dados.
-
-
-Uso:
-
-A API não requer instalações adicionais.
+API REST que consulta dados de vitivinicultura do site da Emprapa (http://vitibrasil.cnpuv.embrapa.br), incluindo dados de Produção, Processamento (de Viníferas, Americanas e Hídridas, Uvas de Mesa e Sem Classificação), Comercialização, Importação (de Vinhos de Mesa, Espumantes, Uvas Frescas, Uvas Passas e Suco de Uva) e Exportação (de Vinhos de Mesa, Espumantes, Uvas Frescas e Suco de Uva). Em seguida, retorna os dados. A API não requer instalações adicionais.
 Link principal da API: (LINK DA API)
--Autenticação: (desenvolver)
-Em seguida, é possível realizar requisições GET para os endpoints listados abaixo para obter os dados desejados. Segue a relação de dados desejados e endpoints:
+
+
+
+Autenticação: (desenvolver)
+
+
+
+
+Endpoints
+
+
+
+Devem ser chamados com requisições GET, a fim de se obter os dados desejados. Segue a relação de dados desejados e endpoints:
+
 Produção: /producao/
 Processamento de Viníferas: /processa_viniferas/
 Processamento de Americanas e Hídridas: /processa_americanas_hibridas/
@@ -27,6 +35,7 @@ Exportação de Vinhos de Mesa: /exportacao_vinhosmesa/\n
 Exportação de Espumantes: /exportacao_espumantes/\n
 Exportação de Uvas Frescas: /exportacao_uvasfrescas/\n
 Exportação de Suco de Uva: /exportacao_suco/\n\n
+
 
 
 Retorno e exemplos de uso\n
