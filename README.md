@@ -26,20 +26,20 @@ Processamento de Americanas e Hídridas: /processa_americanas_hibridas/
 Processamento de Uvas de Mesa: /processa_uvamesa/
 Processamento Sem Classificação: /processa_semclassf/
 Comercialização: /comercio/
-Importação de Vinhos de Mesa: /importacao_vinhos
-Importação de Espumantes: /importacao_espumantes
-Importação de Uvas Frescas: /importacao_uvasfrescas
+Importação de Vinhos de Mesa: /importacao_vinhos/
+Importação de Espumantes: /importacao_espumantes/
+Importação de Uvas Frescas: /importacao_uvasfrescas/
 Importação de Uvas Passas: /importacao_uvaspassas/
-Importação de Suco de Uva: /importacao_suco/\n
-Exportação de Vinhos de Mesa: /exportacao_vinhosmesa/\n
-Exportação de Espumantes: /exportacao_espumantes/\n
-Exportação de Uvas Frescas: /exportacao_uvasfrescas/\n
-Exportação de Suco de Uva: /exportacao_suco/\n\n
+Importação de Suco de Uva: /importacao_suco/
+Exportação de Vinhos de Mesa: /exportacao_vinhosmesa/
+Exportação de Espumantes: /exportacao_espumantes/
+Exportação de Uvas Frescas: /exportacao_uvasfrescas/
+Exportação de Suco de Uva: /exportacao_suco/
+
+Todos retornam (xpto)
 
 
 
-Retorno e exemplos de uso\n
+Exemplos de uso
 
-
-
-           
+(desenvolver)
