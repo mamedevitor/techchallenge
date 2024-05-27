@@ -21,8 +21,8 @@ Processamento de Americanas e Hídridas: /processa_americanas_hibridas/
 Processamento de Uvas de Mesa: /processa_uvamesa/
 Processamento Sem Classificação: /processa_semclassf/
 Comercialização: /comercio/
-Importação de Vinhos de Mesa: /importacao_vinhos/
-Importação de Espumantes: /importacao_espumantes/
+Importação de Vinhos de Mesa: /importacao_vinhos
+Importação de Espumantes: /importacao_espumantes
 Importação de Uvas Frescas: /importacao_uvasfrescas
 Importação de Uvas Passas: /importacao_uvaspassas/
 Importação de Suco de Uva: /importacao_suco/\n
