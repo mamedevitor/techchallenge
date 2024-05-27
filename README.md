@@ -9,8 +9,9 @@ Link principal da API: (LINK DA API)
 
 
 
-Autenticação: (desenvolver)
+Autenticação
 
+(desenvolver)
 
 
 
@@ -43,3 +44,9 @@ Todos retornam (xpto)
 Exemplos de uso
 
 (desenvolver)
+
+
+
+Licença
+
+MIT Licence.
