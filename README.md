@@ -133,9 +133,33 @@ git push heroku master
 heroku ps:scale web=1
 ```
 
-6. Acesse sua aplicação:
+#### 6. Acesse sua aplicação:
 Heroku fornecerá um link para a aplicação. Acesse o link para ver sua API em funcionamento na nuvem.
 https://api-tech-challenge-fiap-ba4acd78ab5d.herokuapp.com/docs
+
+# Arquitetura do projeto
+<br/>
+
+![apitechchallenge drawio](https://github.com/mamedevitor/techchallenge/assets/83721127/2494997e-96d8-41e2-82ab-7816b7c9cb8f)
+
+# Cenário de Utilização
+
+
+### Objetivo: 
+Imaginando que o usuário será um vinicultor afim de analisar a produtividade de diferentes variedades de uvas ao longo dos anos para tomar decisões informadas sobre plantio e produção.
+
+### Processo:
+
+Login: Vinicultor faz login e obtém um token JWT.
+
+### Consulta de Dados:
+1. Vinicultor faz uma requisição para o endpoint /producao/ para obter dados históricos de produção.
+2. Utiliza filtros para analisar a produtividade de um determinado período.
+
+3. Análise e Decisão:
+Com base nos dados recebidos, vinicultor pode decidir ajustar o cultivo de certas variedades de uvas, planejar a produção de vinho, ou fazer previsões para a próxima safra.
+Essa arquitetura proporciona uma maneira eficiente e segura de fornecer acesso a dados valiosos, suportando a tomada de decisões baseadas em dados para vinicultores e outros usuários interessados.
+
 
 <br/>
 <br/>
