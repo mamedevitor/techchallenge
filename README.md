@@ -74,6 +74,7 @@ Modelo da response:
 
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/1ae943b6-6dbc-47cd-a10f-7ef99e11dd01)
 
+## Requisição
 
 As requisições precisam incluir os parâmetros skip (Número de registros a serem pulados (default: 0)) e limit (Número máximo de registros a serem retornados (default: 10)). Exemplo de request em bash:
 
