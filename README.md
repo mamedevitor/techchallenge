@@ -54,9 +54,7 @@ Exportação de Uvas Frescas: /exportacao_uvasfrescas/
 
 Exportação de Suco de Uva: /exportacao_suco/
 
-As requisições precisam incluir os parâmetros skip (Número de registros a serem pulados (default: 0)) e
-•	 `limit`: Número máximo de registros a serem retornados (default: 10)
-Exemplo de request em bash:
+As requisições precisam incluir os parâmetros skip (Número de registros a serem pulados (default: 0)) e limit (Número máximo de registros a serem retornados (default: 10)). Exemplo de request em bash:
 
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/0e594932-319c-400f-bd67-5082e76031ba)
 
