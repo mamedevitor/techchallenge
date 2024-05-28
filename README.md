@@ -25,19 +25,33 @@ Endpoints
 Devem ser chamados com requisições GET, a fim de se obter os dados desejados. Segue a relação de dados desejados e endpoints:
 
 Produção: /producao/
+
 Processamento de Viníferas: /processa_viniferas/
+
 Processamento de Americanas e Hídridas: /processa_americanas_hibridas/
+
 Processamento de Uvas de Mesa: /processa_uvamesa/
+
 Processamento Sem Classificação: /processa_semclassf/
+
 Comercialização: /comercio/
+
 Importação de Vinhos de Mesa: /importacao_vinhos/
+
 Importação de Espumantes: /importacao_espumantes/
+
 Importação de Uvas Frescas: /importacao_uvasfrescas/
+
 Importação de Uvas Passas: /importacao_uvaspassas/
+
 Importação de Suco de Uva: /importacao_suco/
+
 Exportação de Vinhos de Mesa: /exportacao_vinhosmesa/
+
 Exportação de Espumantes: /exportacao_espumantes/
+
 Exportação de Uvas Frescas: /exportacao_uvasfrescas/
+
 Exportação de Suco de Uva: /exportacao_suco/
 
 Exemplo de request em bash:
@@ -49,38 +63,6 @@ Todos retornam uma lista de dicionários, em que cada key é o título da coluna
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/87c0f129-1ddb-4747-917c-f156f0e96c0d)
 
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/dfcdbc31-2ede-439c-b765-30f44204143e)
-
-[
-  {
-    "id": 1,
-    "control": "TINTAS",
-    "cultivar": "TINTAS",
-    "ano1970": 10448228,
-    "ano1971": 11012833,
-    "ano1972": 10798824,
-    "ano1973": 8213674,
-    (...)
-    "ano2020": 28003505,
-    "ano2021": 93296587,
-    "ano2022": 0
-  },
-  {
-    "id": 2,
-    "control": "ti_Alicante Bouschet",
-    "cultivar": "Alicante Bouschet",
-    "ano1970": 0,
-    "ano1971": 0,
-    "ano1972": 0,
-    "ano1973": 0,
-    (...)
-    "ano2020": 2272985,
-    "ano2021": 811140,
-    "ano2022": 0
-  },
-  (...)
-  
-]
-
 
 Licença
 
