@@ -12,17 +12,15 @@ Link principal da API: https://api-tech-challenge-fiap-ba4acd78ab5d.herokuapp.co
 
 Autenticação
 
-Antes de utilizar a API, deve-se chamar o endpoint /token com requisição POST para se obter um token JWT, enviando os parâmetros "username" e "password". Segue exemplo em Bash, considerando que se deve substituir SEU_USER pelo usuário e SUA_SENHA pela senha:
+Antes de utilizar a API, deve-se chamar o endpoint /token com requisição POST para se obter um token JWT, enviando os parâmetros "username" e "password". Segue exemplo de request em Bash, considerando que se deve substituir SEU_USER pelo usuário e SUA_SENHA pela senha:
 
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/ce89c34b-30da-4014-980d-f0c4bc4d4f18)
 
-O retorno é no modelo:
+Modelo da response:
 
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/1ae943b6-6dbc-47cd-a10f-7ef99e11dd01)
 
 Endpoints
-
-
 
 Devem ser chamados com requisições GET, a fim de se obter os dados desejados. Segue a relação de dados desejados e endpoints:
 
@@ -42,14 +40,40 @@ Exportação de Espumantes: /exportacao_espumantes/
 Exportação de Uvas Frescas: /exportacao_uvasfrescas/
 Exportação de Suco de Uva: /exportacao_suco/
 
-Todos retornam
+Exemplo de request em bash:
 
+![image](https://github.com/mamedevitor/techchallenge/assets/55901404/0e594932-319c-400f-bd67-5082e76031ba)
 
-
-Exemplos de uso
-
-(desenvolver)
-
+Todos retornam uma lista de dicionários, em que cada key é o título da coluna e o valor é o valor da linha. Exemplo de response:
+[
+  {
+    "id": 1,
+    "control": "TINTAS",
+    "cultivar": "TINTAS",
+    "ano1970": 10448228,
+    "ano1971": 11012833,
+    "ano1972": 10798824,
+    "ano1973": 8213674,
+    (...)
+    "ano2020": 28003505,
+    "ano2021": 93296587,
+    "ano2022": 0
+  },
+  {
+    "id": 2,
+    "control": "ti_Alicante Bouschet",
+    "cultivar": "Alicante Bouschet",
+    "ano1970": 0,
+    "ano1971": 0,
+    "ano1972": 0,
+    "ano1973": 0,
+    (...)
+    "ano2020": 2272985,
+    "ano2021": 811140,
+    "ano2022": 0
+  },
+  (...)
+]
 
 
 Licença
