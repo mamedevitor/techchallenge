@@ -4,11 +4,7 @@ API Embrapa
 
 Descrição:
 
-API REST que realiza uma query no banco de dados local e retorna informações de vitivinicultura da Emprapa, incluindo dados de Produção, Processamento (de Viníferas, Americanas e Hídridas, Uvas de Mesa e Sem Classificação), Comercialização, Importação (de Vinhos de Mesa, Espumantes, Uvas Frescas, Uvas Passas e Suco de Uva) e Exportação (de Vinhos de Mesa, Espumantes, Uvas Frescas e Suco de Uva). A API não requer instalações adicionais.
-Link principal da API: https://api-tech-challenge-fiap-ba4acd78ab5d.herokuapp.com
-
-
-
+API REST que realiza uma query no banco de dados local e retorna informações de vitivinicultura da Emprapa, incluindo dados de Produção, Processamento (de Viníferas, Americanas e Hídridas, Uvas de Mesa e Sem Classificação), Comercialização, Importação (de Vinhos de Mesa, Espumantes, Uvas Frescas, Uvas Passas e Suco de Uva) e Exportação (de Vinhos de Mesa, Espumantes, Uvas Frescas e Suco de Uva). A API não requer instalações adicionais. O deploy da API será realizado no Heroku, onde ficará hospedada. Link principal da API: https://api-tech-challenge-fiap-ba4acd78ab5d.herokuapp.com
 
 Autenticação
 
