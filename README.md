@@ -4,15 +4,29 @@ API Embrapa
 
 Descrição:
 
-API REST que consulta dados de vitivinicultura do site da Emprapa (http://vitibrasil.cnpuv.embrapa.br), incluindo dados de Produção, Processamento (de Viníferas, Americanas e Hídridas, Uvas de Mesa e Sem Classificação), Comercialização, Importação (de Vinhos de Mesa, Espumantes, Uvas Frescas, Uvas Passas e Suco de Uva) e Exportação (de Vinhos de Mesa, Espumantes, Uvas Frescas e Suco de Uva). Em seguida, retorna os dados. A API não requer instalações adicionais.
-Link principal da API: (LINK DA API)
+API REST que realiza uma query no banco de dados local e retorna informações de vitivinicultura da Emprapa, incluindo dados de Produção, Processamento (de Viníferas, Americanas e Hídridas, Uvas de Mesa e Sem Classificação), Comercialização, Importação (de Vinhos de Mesa, Espumantes, Uvas Frescas, Uvas Passas e Suco de Uva) e Exportação (de Vinhos de Mesa, Espumantes, Uvas Frescas e Suco de Uva). A API não requer instalações adicionais.
+Link principal da API: https://api-tech-challenge-fiap-ba4acd78ab5d.herokuapp.com
+
 
 
 
 Autenticação
 
-(desenvolver)
+Antes de utilizar a API, deve-se chamar o endpoint /token com requisição POST para se obter um token JWT, enviando os parâmetros "username" e "password". Segue exemplo em Bash, considerando que se deve substituir SEU_USER pelo usuário e SUA_SENHA pela senha:
+curl -X 'POST' \
+  'https://api-tech-challenge-fiap-ba4acd78ab5d.herokuapp.com/token' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d 'username=SEU_USER&password=SUA_SENHA'
+![image](https://github.com/mamedevitor/techchallenge/assets/55901404/ce89c34b-30da-4014-980d-f0c4bc4d4f18)
 
+O retorno é no modelo:
+{
+  "access_token": SEU_TOKEN,
+  "token_type": "bearer"
+}
+
+![image](https://github.com/mamedevitor/techchallenge/assets/55901404/1ae943b6-6dbc-47cd-a10f-7ef99e11dd01)
 
 
 Endpoints
