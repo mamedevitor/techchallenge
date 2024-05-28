@@ -14,14 +14,11 @@ Autenticação
 
 Antes de utilizar a API, deve-se chamar o endpoint /token com requisição POST para se obter um token JWT, enviando os parâmetros "username" e "password". Segue exemplo em Bash, considerando que se deve substituir SEU_USER pelo usuário e SUA_SENHA pela senha:
 
-
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/ce89c34b-30da-4014-980d-f0c4bc4d4f18)
 
 O retorno é no modelo:
 
-
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/1ae943b6-6dbc-47cd-a10f-7ef99e11dd01)
-
 
 Endpoints
 
@@ -45,7 +42,7 @@ Exportação de Espumantes: /exportacao_espumantes/
 Exportação de Uvas Frescas: /exportacao_uvasfrescas/
 Exportação de Suco de Uva: /exportacao_suco/
 
-Todos retornam (xpto)
+Todos retornam
 
 
 
