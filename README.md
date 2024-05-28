@@ -45,6 +45,11 @@ Exemplo de request em bash:
 ![image](https://github.com/mamedevitor/techchallenge/assets/55901404/0e594932-319c-400f-bd67-5082e76031ba)
 
 Todos retornam uma lista de dicionários, em que cada key é o título da coluna e o valor é o valor da linha. Exemplo de response:
+
+![image](https://github.com/mamedevitor/techchallenge/assets/55901404/87c0f129-1ddb-4747-917c-f156f0e96c0d)
+
+![image](https://github.com/mamedevitor/techchallenge/assets/55901404/dfcdbc31-2ede-439c-b765-30f44204143e)
+
 [
   {
     "id": 1,
@@ -73,6 +78,7 @@ Todos retornam uma lista de dicionários, em que cada key é o título da coluna
     "ano2022": 0
   },
   (...)
+  
 ]
 
 
